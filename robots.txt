@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: 
+
+User-agent: *
+Allow: /
+
+User-agent: googlebot
+Allow: /
+
+User-agent: googlebot-mobile
+Allow: /
+
+User-agent: mediapartners-google
+Allow: /
+
+User-agent: adsbot-google
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+Sitemap: http://www.pietrobiondi.it/sitemap.xml
