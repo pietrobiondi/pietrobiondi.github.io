@@ -52,7 +52,7 @@
 
    <!-- Favicons
    	================================================== -->
-   	<link rel="shortcut icon" href="favicon.ico" >
+   	<link rel="shortcut icon" href="images/favicon.ico" >
 
    	<!-- Global site tag (gtag.js) - Google Analytics -->
    	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134636452-1"></script>
@@ -69,7 +69,9 @@
    <!-- needed for FB Share button -->
    <div id="fb-root"></div>
    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
-
+   <style>
+   	#more {display: none;}
+   </style>
    <body>
 
    <!-- Header
@@ -113,27 +115,27 @@
    		</header> <!-- Header End -->
 
 
-   <!-- About Section -->
-   	<section id="about">
+   		<!-- About Section -->
+   		<section id="about">
 
-   		<div class="row">
+   			<div class="row">
 
-   			<div class="three columns">
+   				<div class="three columns">
 
-   				<img class="profile-pic"  src="images/profile.jpeg" alt="PB_Profile" />
+   					<img class="profile-pic"  src="images/profile.jpeg" alt="PB_Profile" />
 
-   			</div>
+   				</div>
 
-   			<div class="nine columns main-col">
+   				<div class="nine columns main-col">
 
-   				<h2>About Me</h2>
-   				<p>
-   					Born in Catania (CT) in 1994. Passionate about computer science and cybersecurity.
-   					In 2014 I chose to enroll at the faculty of computer science at the University of Catania (UNICT).
-   					In 2017 I graduated from a Bachelor's degree. At the moment I'm continuing my Master's Degree in Computer Science with Curriculum: "Network and Security Systems". Meanwhile, I am also a junior research collaborator at the Institute of Informatics and Telematics (IIT) of the National Research Council (CNR) of Pisa.
-   					<br>
-   					I have good knowledge of languages: C, C ++, Python, Ruby, Java, JavaScript, HTML, PHP, SQL.
-   				</p>
+   					<h2>About Me</h2>
+   					<p>
+   						Born in Catania (CT) in 1994. Passionate about computer science and cybersecurity.
+   						In 2014 I chose to enroll at the faculty of computer science at the University of Catania (UNICT).
+   						In 2017 I graduated from a Bachelor's degree. At the moment I'm continuing my Master's Degree in Computer Science with Curriculum: "Network and Security Systems". Meanwhile, I am also a junior research collaborator at the Institute of Informatics and Telematics (IIT) of the National Research Council (CNR) of Pisa.
+   						<br>
+   						I have good knowledge of languages: C, C ++, Python, Ruby, Java, JavaScript, HTML, PHP, SQL.
+   					</p>
 
                <!--
                <div class="row">
@@ -424,7 +426,7 @@
 
    					<div class="twelve columns">
 
-   						<h3>Thesis: "Study, design and implementation of a security protocol on CAN bus"</h3>
+   						<h4>Thesis: "Study, design and implementation of a security protocol on CAN bus"</h4>
    						<b>Supervisor: </b><a href="http://www.dmi.unict.it/~giamp/" title="Giampaolo Bella">Prof. Giampaolo Bella</a> (UNICT)<br>
    						<b>Advisors: </b><a href="http://www.gianpierocostantino.eu" title="Gianpiero Costantino">Dr Gianpiero Costantino</a> (IIT - CNR) , <a href="http://www.iit.cnr.it/ilaria.matteucci" title="Ilaria Matteucci">Dott.ssa Ilaria Matteucci</a> (IIT - CNR)
    					</p>
@@ -437,7 +439,7 @@
 
    				<div class="twelve columns">
 
-   					<h3>Thesis: "HTTP Strict Transport Security attacks on modern browsers: a comparative analysis"</h3>
+   					<h4>Thesis: "HTTP Strict Transport Security attacks on modern browsers: a comparative analysis"</h4>
 
    					<p>Study of HTTP Strict Transport Security (HSTS), a policy designed to counter attacks called SSLStrip. <br>
    						<b>Supervisor: </b><a href="http://www.dmi.unict.it/~giamp/" title="Giampaolo Bella">Prof. Giampaolo Bella</a> (UNICT)
@@ -451,7 +453,7 @@
 
    				<div class="twelve columns">
 
-   					<h3>CAN Flood post exploitation for CAN on Metasploit-Framework</h3>
+   					<h4>CAN Flood post exploitation for CAN on Metasploit-Framework</h4>
 
    					<p>
    						CAN Flood is a post-exploitation module that floods a CAN interface for a number of rounds. Both the interface and the number of rounds are to be provided as inputs. An example list of frames also is part of the inputs, and sources the flooding at each round. The module therefore is general as it is parametric in the frame list.<br>
@@ -468,7 +470,7 @@
 
    				<div class="twelve columns">
 
-   					<h3>Crazy Tachymeter</h3>
+   					<h4>Crazy Tachymeter</h4>
 
    					<p>
    						Crazy-Tachymeter is an exploit that allows you to flood the CAN-Bus with frames of the ECU mapping file.<br>
@@ -479,98 +481,100 @@
 
    			</div> <!-- item end -->
 
-   			<div class="row item">
+   			<CENTER><span id="dots">...</span></CENTER><span id="more"> <!-- SHOW HIDE ELEMENTS -->
+   				<div class="row item">
 
-   				<div class="twelve columns">
+   					<div class="twelve columns">
 
-   					<h3>Distributed dictionary attack</h3>
+   						<h4>Distributed dictionary attack</h4>
 
-   					<p>
-   						Java program that implements a vulnerable server with an incremental ban system. Within the project there are clients which communicate through the RabbitMQ middleware.<br>
-   						<a href="https://github.com/pietrobiondi/Distributed-dictionary-attack" title="Distributed dictionary attack">Github</a>
-   					</p>
+   						<p>
+   							Java program that implements a vulnerable server with an incremental ban system. Within the project there are clients which communicate through the RabbitMQ middleware.<br>
+   							<a href="https://github.com/pietrobiondi/Distributed-dictionary-attack" title="Distributed dictionary attack">Github</a>
+   						</p>
 
-   				</div>
+   					</div>
 
-   			</div> <!-- item end -->
-
-
-   			<div class="row item">
-
-   				<div class="twelve columns">
-
-   					<h3>Visibility on the Etsy platform</h3>
-
-   					<p>
-   						Study of applicability of techniques to increase visibility on Etsy.<br>
-   					</p>
-
-   				</div>
-
-   			</div> <!-- item end -->
-
-   			<div class="row item">
-
-   				<div class="twelve columns">
-
-   					<h3>Capture The Flag - UNICT 2017</h3>
-
-   					<p>
-   						Capture The Flag is a computer security competition (UNICT) where teams must attack enemy machines with exploits and defend their own by inserting patches.<br>
-   						<a href="http://www.dmi.unict.it/~giamp/ctf/17edition" title="CTF - Website 2017 UNICT">Website</a> - 
-   						<a href="https://github.com/pietrobiondi/CTF-Website" title="CTF - Project 2017 UNICT">Github</a>
-   					</p>
-
-   				</div>
-
-   			</div> <!-- item end -->
-
-   			<div class="row item">
-
-   				<div class="twelve columns">
-
-   					<h3>Food-Classification</h3>
-
-   					<p>
-   						This Social Media Management project (UNICT) allow to classificate picture between food and non-food.
-   						<a href="https://github.com/Tkd-Alex/Food-Classification" title="Food-Classification">Github</a>
-   					</p>
-
-   				</div>
-
-   			</div> <!-- item end -->
+   				</div> <!-- item end -->
 
 
-   			<div class="row item">
+   				<div class="row item">
 
-   				<div class="twelve columns">
+   					<div class="twelve columns">
 
-   					<h3>Linear Regression Tool</h3>
+   						<h4>Visibility on the Etsy platform</h4>
 
-   					<p>
-   						Linear regression tool with some statistics parameters.
-   						<a href="https://github.com/pietrobiondi/Linear-Regression-Tool" title="Linear Regression Tool">Github</a>
-   					</p>
+   						<p>
+   							Study of applicability of techniques to increase visibility on Etsy.<br>
+   						</p>
 
-   				</div>
+   					</div>
 
-   			</div> <!-- item end -->
+   				</div> <!-- item end -->
+
+   				<div class="row item">
+
+   					<div class="twelve columns">
+
+   						<h4>Capture The Flag - UNICT 2017</h4>
+
+   						<p>
+   							Capture The Flag is a computer security competition (UNICT) where teams must attack enemy machines with exploits and defend their own by inserting patches.<br>
+   							<a href="http://www.dmi.unict.it/~giamp/ctf/17edition" title="CTF - Website 2017 UNICT">Website</a> - 
+   							<a href="https://github.com/pietrobiondi/CTF-Website" title="CTF - Project 2017 UNICT">Github</a>
+   						</p>
+
+   					</div>
+
+   				</div> <!-- item end -->
+
+   				<div class="row item">
+
+   					<div class="twelve columns">
+
+   						<h4>Food-Classification</h4>
+
+   						<p>
+   							This Social Media Management project (UNICT) allow to classificate picture between food and non-food.
+   							<a href="https://github.com/Tkd-Alex/Food-Classification" title="Food-Classification">Github</a>
+   						</p>
+
+   					</div>
+
+   				</div> <!-- item end -->
 
 
-   			<div class="row item">
+   				<div class="row item">
 
-   				<div class="twelve columns">
+   					<div class="twelve columns">
 
-   					<h3>Zeppelin-Slim-GDGCatania</h3>
+   						<h4>Linear Regression Tool</h4>
 
-   					<p>The Slim Version of Project Zeppelin is a single page edited for GDGCatania. The website contains all information that we need in a small version.
-   						<a href="https://www.gdgcatania.org" title="GDG-Website">Website</a> - 
-   						<a href="https://github.com/GDGCatania/Zeppelin-Slim-GDGCatania" title="GDG-Project">Github</a>
-   					</p>
-   				</div>
+   						<p>
+   							Linear regression tool with some statistics parameters.
+   							<a href="https://github.com/pietrobiondi/Linear-Regression-Tool" title="Linear Regression Tool">Github</a>
+   						</p>
 
-   			</div> <!-- item end -->
+   					</div>
 
+   				</div> <!-- item end -->
+
+
+   				<div class="row item">
+
+   					<div class="twelve columns">
+
+   						<h4>Zeppelin-Slim-GDGCatania</h4>
+
+   						<p>The Slim Version of Project Zeppelin is a single page edited for GDGCatania. The website contains all information that we need in a small version.
+   							<a href="https://www.gdgcatania.org" title="GDG-Website">Website</a> - 
+   							<a href="https://github.com/GDGCatania/Zeppelin-Slim-GDGCatania" title="GDG-Project">Github</a>
+   						</p>
+   					</div>
+
+   				</div> <!-- item end -->
+   			</span><br>
+   			<center><button onclick="showhidelist()" id="myBtn">Read more</button></center>
    		</div> <!-- main-col end -->
 
    	</div> <!-- End Projects -->
@@ -605,34 +609,34 @@
 
 
    <!-- footer -->
-   	<footer id="footer">
+   <footer id="footer">
 
-   		<div class="row" itemscope itemtype="http://schema.org/Organization">
+   	<div class="row" itemscope itemtype="http://schema.org/Organization">
 
-   			<div class="twelve columns">
-   				<h2 style="color: white">Get in touch!</h2>
-   				<ul class="social-links">
-   					<li><a href="https://twitter.com/Pietro_Biondi94" title="twitter"><i class="fa fa-twitter"></i></a></li>
-   					<li><a href="https://www.linkedin.com/in/pietro-biondi/" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
-   					<!--<li><a href="mailto:info@pietrobiondi.it" title="mail" itemprop="email"><i class="fa fa-envelope"></i></a></li>-->
-   				</ul>
-
-   				<div class="fb-share-button" data-href="http://www.pietrobiondi.it/" data-layout="button" data-size="small" style="bottom: 10px;"><a target="_blank" title="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.pietrobiondi.it%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-   				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-   				<a class="twitter-follow-button" title="twitter" data-show-count="false" href="https://twitter.com/Pietro_Biondi94"> Follow</a>
-
-   			</div>
-   			<ul class="copyright">
-   				<li>&copy; Copyright 2019 | Edited by <a href="http://www.pietrobiondi.it" title="Pietro Biondi">Pietro Biondi</a> </li>
-   				<li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+   		<div class="twelve columns">
+   			<h2 style="color: white">Get in touch!</h2>
+   			<ul class="social-links">
+   				<li><a href="https://twitter.com/Pietro_Biondi94" title="twitter"><i class="fa fa-twitter"></i></a></li>
+   				<li><a href="https://www.linkedin.com/in/pietro-biondi/" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+   				<!--<li><a href="mailto:info@pietrobiondi.it" title="mail" itemprop="email"><i class="fa fa-envelope"></i></a></li>-->
    			</ul>
 
-
-   			<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+   			<div class="fb-share-button" data-href="http://www.pietrobiondi.it/" data-layout="button" data-size="small" style="bottom: 10px;"><a target="_blank" title="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.pietrobiondi.it%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+   			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   			<a class="twitter-follow-button" title="twitter" data-show-count="false" href="https://twitter.com/Pietro_Biondi94"> Follow</a>
 
    		</div>
+   		<ul class="copyright">
+   			<li>&copy; Copyright 2019 | Edited by <a href="http://www.pietrobiondi.it" title="Pietro Biondi">Pietro Biondi</a> </li>
+   			<li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+   		</ul>
 
-   	</footer> <!-- Footer End-->
+
+   		<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+   	</div>
+
+   </footer> <!-- Footer End-->
 
    <!-- Java Script
    	================================================== -->
@@ -645,7 +649,7 @@
    	<script src="js/jquery.fittext.js"></script>
    	<script src="js/magnific-popup.js"></script>
    	<script src="js/init.js"></script>
-
+   	<script src="js/myfunctions.js"></script>
    </body>
 
    </html>
