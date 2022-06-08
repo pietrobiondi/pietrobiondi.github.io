@@ -269,6 +269,14 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
+#resume a>h3 {
+   color: #11ABB0;
+}
+
+#resume a:hover>h3 {
+   color: #313131;
+}
+
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
