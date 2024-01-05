@@ -559,7 +559,9 @@
   content: "\f080";
 }
 .fa-twitter-square:before {
-  content: "\f081";
+  font-family:sans-serif;
+  content:"𝕏";
+	font-size:1.2em;
 }
 .fa-facebook-square:before {
   content: "\f082";
@@ -629,7 +631,9 @@
   content: "\f098";
 }
 .fa-twitter:before {
-  content: "\f099";
+  font-family:sans-serif;
+  content:"𝕏";
+	font-size:1.2em;
 }
 .fa-facebook:before {
   content: "\f09a";
