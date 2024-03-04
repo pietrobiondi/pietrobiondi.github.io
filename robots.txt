@@ -19,4 +19,4 @@ Allow: /
 User-agent: bingbot
 Allow: /
 
-Sitemap: https://www.pietrobiondi.it/sitemap.xml
+Sitemap: https://pietrobiondi.github.io/sitemap.xml
